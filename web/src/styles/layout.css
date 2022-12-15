@@ -1,0 +1,181 @@
+:root {
+  font-size: 18px;
+}
+
+html {
+  font-family: 'Abril Fatface' !important;
+  background-color: #1b1c1d !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* -webkit-font-smoothing: antialiased; */
+  margin: 0;
+  background-color: #1b1c1d !important;
+}
+
+h1 {
+  font-size: 2.5rem !important;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Abril Fatface' !important;
+  font-weight: normal !important;
+  letter-spacing: 0.6px;
+  color: #fff !important;
+}
+
+a {
+  color: #fff !important;
+}
+
+div {
+  color: #fff !important;
+}
+
+p,
+li {
+  font-size: 1rem !important;
+
+  color: #ccc;
+  font-family: 'Lato';
+  line-height: 1.7rem !important;
+}
+
+li {
+  margin-right: 2rem;
+  /* text-align: left; */
+}
+
+blockquote {
+  font-size: 1rem !important;
+  line-height: 1.7rem !important;
+}
+
+strong {
+  color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+  .ui.modal > .close {
+    color: #ffffff !important;
+  }
+}
+
+.Collapsible__trigger {
+  border: 1px solid #fff !important;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  width: 15rem;
+  margin: 0 auto;
+  /* text-align: center; */
+  cursor: pointer;
+}
+
+.ui.modal > .header {
+  background: #353535 !important;
+}
+
+.ui.modal > .content {
+  background: #353535 !important;
+}
+
+/* Dropdown CSS */
+
+.ui.dropdown > .menu {
+  background: #353535 !important;
+  font-family: 'Lato' !important;
+}
+
+.ui.selection.dropdown .menu > .item {
+  border-top: none !important;
+}
+
+.ui.dropdown:not(.button) > .default.text,
+.ui.default.dropdown:not(.button) > .text {
+  color: #6d6d6d !important;
+  font-weight: 400 !important;
+  top: 0.1rem !important ;
+  font-size: 1rem !important;
+  font-family: 'Lato' !important;
+}
+
+.ui.selection.dropdown {
+  border: none !important;
+  border-radius: 0 !important;
+  font-weight: 400 !important;
+}
+
+.ui.selection.active.dropdown:hover .menu {
+  border: none !important;
+}
+.ui.selection.active.dropdown .menu {
+  border: none !important;
+}
+
+.ui.label {
+  border-radius: 25px;
+  font-weight: 400 !important;
+}
+
+.ui.multiple.dropdown > .label {
+  border-radius: 25px;
+  font-weight: 400 !important;
+}
+
+.ui.selection.dropdown {
+  background: #35353500 !important;
+  font-family: 'Lato' !important;
+}
+
+.ui.selection.active.dropdown:hover {
+  box-shadow: none !important;
+}
+
+.ui.selection.active.dropdown {
+  box-shadow: none !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+  .ui.dropdown:not(.button) > .default.text,
+  .ui.default.dropdown:not(.button) > .text {
+    top: 0.4rem !important ;
+    font-size: 0.8rem !important;
+  }
+}
+
+textarea {
+  background-color: #353535 !important;
+  color: #fff;
+}
+
+.ui.form .field > label {
+  color: #f1f1f1 !important;
+  text-align: left;
+  font-family: 'Lato';
+}
+/* [data-reach-dialog-content] {
+  background: #353535;
+}
+
+.RNIW_btnHeader:focus,
+[aria-selected='true'].RNIW_btnHeader {
+  background: #353535;
+  color: white;
+  border-color: rgb(14, 30, 37);
+  font-weight: 700;
+} */
+.ui.small.modal > .header:not(.ui) {
+  background-color: #1b1b1b !important;
+}
+
+.ui.button {
+  font-family: 'Lato' !important;
+}
+
+.ui.grey.ribbon.label {
+  /* border-color: #4e4d4d !important; */
+  border: none !important;
+}

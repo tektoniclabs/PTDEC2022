@@ -1,0 +1,48 @@
+{
+  "private": false,
+  "name": "perfectraveller-studio",
+  "version": "1.6.4",
+  "author": "TronSystems",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "deploy": "npm run graphql-deploy && npm run sanity-deploy",
+    "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
+    "graphql-deploy": "sanity graphql deploy --playground",
+    "sanity-deploy": "sanity deploy",
+    "lint": "eslint .",
+    "start": "sanity start",
+    "build": "sanity build",
+    "now-build": "npm run build",
+    "workers-start": "npm run build && wrangler preview --watch",
+    "workers-deploy": "npm run build && wrangler publish",
+    "now-dev": "npm run build",
+    "test": "sanity check"
+  },
+  "dependencies": {
+    "@sanity/cli": "^1.149.19",
+    "@sanity/components": "^1.150.8",
+    "@sanity/core": "^1.150.7",
+    "@sanity/dashboard": "^1.150.8",
+    "@sanity/default-layout": "^1.150.8",
+    "@sanity/default-login": "^1.150.1",
+    "@sanity/desk-tool": "^1.150.8",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-icons": "^3.11.0"
+  },
+  "devDependencies": {
+    "@sanity/base": "^1.150.8",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-standard": "^4.1.0",
+    "prettier-eslint-cli": "^5.0.1"
+  }
+}

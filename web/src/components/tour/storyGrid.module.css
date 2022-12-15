@@ -1,0 +1,36 @@
+@import '../../styles/media-queries.css';
+/* @import 'react-h5-audio-player/lib/styles.css'; */
+.sectionTitle {
+  font-family: 'Abril Fatface', cursive !important;
+  font-weight: normal !important;
+  letter-spacing: 0.6px;
+  color: #fff !important;
+  font-size: 1.71428571rem;
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 2rem;
+  padding: 0.5rem;
+}
+
+/* CSS classes for new masonry layout - 240820 */
+.root {
+  margin: 0.5rem;
+  padding: 0.7rem 0.1rem;
+  width: 300px;
+}
+
+@media screen and (max-width: 449px) {
+  .root {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    width: 100%;
+    left: 0 !important;
+  }
+}
+
+/* Ipad and Ipad Pro */
+@media screen and (min-device-width: 481px) and (max-width: 1024px) {
+  .root {
+    margin: 0.5rem;
+    width: 43%;
+  }
+}

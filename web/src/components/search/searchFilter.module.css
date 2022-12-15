@@ -1,0 +1,19 @@
+@import '../../styles/media-queries.css';
+
+.topicDropDownBg {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background: #353535 !important;
+  padding: 0.1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (max-width: 449px) {
+  .topicDropDownBg {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

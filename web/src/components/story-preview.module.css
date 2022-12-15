@@ -1,0 +1,202 @@
+.root {
+  text-decoration: none;
+  background-color: #353535;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.storySubscriptionBanner {
+  z-index: 2;
+  margin-left: 1rem !important;
+  top: 1rem;
+  font-family: 'Lato' !important;
+  position: absolute !important;
+}
+
+.storyImage {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0rem;
+  /* margin-top: -1.6rem; */
+  position: relative;
+  /* display: inline-block; */
+  padding: 0;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+  background-color: #353535;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem;
+  background-color: #353535;
+  color: #fff;
+  margin: 0;
+  @media (hover: hover) {
+    @nest .root:hover & {
+      text-decoration: none;
+    }
+  }
+}
+
+.precis {
+  padding: 1rem;
+  color: #ccc !important;
+  padding-top: 0;
+  background-color: #353535;
+  text-align: center;
+  margin-top: 0rem;
+
+  @nest & strong {
+    font-weight: 600;
+  }
+}
+
+.button {
+  text-align: center;
+  margin: 0;
+  font-family: 'Lato' !important;
+  /* background-color: #353535; */
+  border-radius: 0px 0px 015px 15px;
+  border-radius: 0px 0px 015px 15px;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+.topics {
+  text-align: center;
+  background-color: #353535;
+}
+
+.topicContainer {
+  /* padding: 2rem !important; */
+  margin: 0px auto;
+  text-align: center;
+}
+
+.topicText {
+  /* padding: 2rem !important; */
+  display: inline-flex;
+  font-weight: 400 !important;
+  color: #fff !important;
+  /* min-width: 4em !important; */
+  background-color: #353535 !important;
+  border: 1px solid #fff !important;
+  border-radius: 30px;
+  margin: 0.3rem;
+  margin: 1rem 0.2rem 0rem 0.2rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.keywordText {
+  /* padding: 2rem !important; */
+  font-weight: 400 !important;
+  display: inline-flex;
+  color: #949494 !important;
+  /* min-width: 4em !important; */
+  /* background-color: #767676 !important;
+  border: 1px solid #767676 !important;
+  border-radius: 30px; */
+  margin: 0.1rem;
+  padding: 0rem 0.2rem;
+}
+
+.text {
+  padding: 2rem !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+  min-width: 4em !important;
+  background-color: #353535 !important;
+  border: 1px solid #fff !important;
+}
+
+/* Tour Image properties */
+
+.tourContainer {
+  position: relative;
+}
+
+.tourImage {
+  display: block;
+  width: 100%;
+  max-height: auto;
+  overflow: hidden;
+  margin-bottom: 0rem;
+  position: relative;
+  padding: 0;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+  background-color: #000;
+}
+
+.image {
+  opacity: 0.6;
+}
+
+.tourContent {
+  position: absolute;
+  margin: 1rem auto;
+  left: 0;
+  right: 0;
+  top: 20%;
+  text-align: center;
+  line-height: 1.4rem;
+  width: 80%;
+  height: 100%;
+  color: #fff !important;
+}
+
+.tourTitle {
+  text-align: center;
+  color: #fff !important;
+}
+
+.tourButton {
+  text-align: center;
+  color: #fff !important;
+}
+
+.tourSubscriptionBanner {
+  z-index: 2;
+  margin-left: 1rem !important;
+  font-family: 'Lato' !important;
+  top: 1rem;
+  position: absolute !important;
+}
+
+.tourSubscriptionBannerFree {
+  z-index: 2;
+  margin-left: 1rem !important;
+  font-family: 'Lato' !important;
+  top: 1rem;
+  position: absolute !important;
+  color: #fff !important;
+  border: #696969 !important;
+  background-color: #696969 !important;
+  font-weight: bold !important;
+}
+
+/* iphone 5 setting */
+
+@media screen and (max-width: 568px) {
+  .tourTitle {
+    font-size: 1.2rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+}
+
+.ui.grey.ribbon.label {
+  border-color: #4e4d4d !important;
+}
+
+.tourDescription {
+  padding: 1rem;
+  font-family: Lato;
+  background-color: #000;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  color: #fff !important;
+  border-bottom-right-radius: 20px;
+}

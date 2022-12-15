@@ -1,0 +1,42 @@
+.mymasonrygrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0px; /* gutter size offset */
+  width: auto;
+}
+.mymasonrygridcolumn {
+  padding-left: 20px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.mymasonrygridcolumn > div {
+  margin-bottom: 2.8rem;
+}
+
+.masonry {
+  padding: 0 !important;
+}
+
+/* CSS classes for new masonry layout - 240820 */
+.root {
+  margin: 0.5rem 0.7rem;
+  /* padding: 0.7rem 0.1rem; */
+  width: 345px;
+}
+
+@media screen and (max-width: 449px) {
+  .root {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    width: 100%;
+  }
+}
+
+/* Ipad and Ipad Pro */
+@media screen and (min-device-width: 481px) and (max-width: 1024px) {
+  .root {
+    margin: 0.5rem;
+    width: 47.3%;
+  }
+}

@@ -1,0 +1,55 @@
+@import '../../../styles/media-queries.css';
+
+.content {
+  min-height: calc(100% - 73px - 152px);
+
+  @media (--media-min-small) {
+    min-height: calc(100% - 90px - 169px);
+  }
+}
+
+.footer {
+}
+
+.footerWrapper {
+  box-sizing: border-box;
+  max-width: 960px;
+  padding: 1.5em;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-family: 'Lato' !important;
+  font-size: 0.9rem;
+
+  @media (--media-min-small) {
+    padding: 2em;
+  }
+}
+
+.companyAddress {
+  text-align: center;
+  margin: 0 0 1rem;
+  color: #ccc;
+}
+
+.siteInfo {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ccc;
+
+  @nest & a {
+    color: inherit;
+  }
+}
+
+.install {
+  margin: 0 auto;
+}
+
+.installBtn {
+  border: 2px solid #fff;
+  padding: 0.5em;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}

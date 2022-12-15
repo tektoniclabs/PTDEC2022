@@ -1,0 +1,290 @@
+/* Custom Styling for Pages */
+@import '../styles/media-queries.css';
+
+.image {
+  width: 100% !important;
+  opacity: 0.7;
+  height: 40rem !important;
+  @media (--media-max-small) {
+    height: auto !important;
+
+    min-height: 250px !important;
+  }
+}
+
+.subscriptionImage {
+  width: 100% !important;
+  height: 350px !important;
+  object-fit: cover;
+
+  @media (--media-max-small) {
+    height: auto !important;
+    object-fit: cover;
+    object-position: 43% 0%;
+    width: 100%;
+    min-height: 250px !important;
+  }
+
+  @media (--media-max-ipad) {
+    height: auto !important;
+    object-fit: cover;
+    object-position: 43% 0%;
+    width: 100%;
+  }
+}
+
+.memberBtn {
+  margin-top: 1rem !important;
+  text-transform: uppercase !important;
+  line-height: 1.5em !important;
+  background-color: #353535 !important;
+}
+
+.defaultBtn {
+  margin-top: 1rem !important;
+  text-transform: uppercase !important;
+  line-height: 1.5em !important;
+
+  @media (--media-max-iphone5) {
+    font-size: 0.9rem !important;
+  }
+}
+
+.paraTitle {
+  @media (--media-max-iphone5) {
+    font-size: 1.7rem !important;
+  }
+}
+.manageBtn {
+  margin-top: 1rem !important;
+  text-transform: uppercase !important;
+  line-height: 1.5em !important;
+
+  @media (--media-max-iphone5) {
+    font-size: 0.7rem !important;
+  }
+}
+
+/* Ipad and Ipad Pro */
+@media screen and (min-device-width: 481px) and (max-width: 1024px) {
+  .subscriptionImage {
+    min-height: 350px !important;
+    height: 350px !important;
+  }
+}
+
+.overlay {
+  background-color: #000;
+}
+
+.subscriptionHeaderImage {
+  width: 100%;
+  overflow: hidden;
+  top: -7rem;
+  margin-bottom: 0rem;
+  position: relative;
+  display: inline-block;
+  margin-bottom: -5rem;
+}
+
+.subscription {
+  /* height: 100vh; */
+  padding: 0 20rem;
+  @media (--media-max-small) {
+    padding: 0.5rem;
+  }
+}
+
+/* Ipad Pro */
+@media screen and (min-device-width: 1024px) and (max-width: 1366px) {
+  .subscription {
+    padding: 0 10rem;
+  }
+}
+
+.subscriptionContainer {
+  /* border: 2px solid #353535 !important; */
+  border-radius: 10px !important;
+  /* background-color: #353535 !important; */
+  margin: 1rem auto !important;
+
+  @media (--media-max-small) {
+    margin: 0.2rem !important;
+    padding: 0.1rem !important;
+  }
+}
+
+.headerImage {
+  width: 100%;
+  overflow: hidden;
+  top: -7rem;
+  margin-bottom: 0rem;
+  position: relative;
+  display: inline-block;
+  margin-bottom: -5rem;
+}
+
+.headerImage .text {
+  position: absolute;
+  margin: 1rem auto;
+  left: 0;
+  right: 0;
+  top: 45%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 100%;
+  font-size: 3rem !important;
+  color: #fff !important;
+
+  @media (--media-max-small) {
+    top: 34%; /* Adjust this value to move the positioned div up and down */
+    font-size: 1.5rem !important;
+    margin: auto !important;
+  }
+}
+
+.logo {
+  position: absolute;
+  margin: 1rem auto;
+  left: 5rem;
+  right: 0;
+  top: 3rem;
+  min-height: 560px !important;
+  @media (--media-max-small) {
+    left: 1rem;
+    top: 1rem;
+    /* display: none; */
+  }
+}
+
+.imageLogo {
+  height: 200px;
+  width: 241px;
+  @media (--media-max-small) {
+    height: 100px;
+    width: 120px;
+  }
+}
+
+.subscriptionimageLogo {
+  height: 270px;
+  width: 320px;
+  @media (--media-max-small) {
+    height: 100px;
+    width: 120px;
+  }
+}
+
+.logoimg {
+  position: absolute;
+  margin: 1rem auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: url('../assets/logo.png') no-repeat !important;
+  min-height: 560px !important;
+}
+
+.topiccontainer {
+  display: inline;
+}
+
+.suggestions {
+  padding: 0 0.2rem;
+}
+
+.topictext {
+  /* padding: 2rem !important; */
+  font-weight: 400 !important;
+  color: #ccc !important;
+  /* min-width: 4em !important; */
+  background-color: #353535 !important;
+  border: 1px solid #fff !important;
+  border-radius: 30px;
+  margin: 0 0.2rem;
+  text-align: center;
+  padding: 0.3rem 0.7rem;
+}
+
+.headerImage .btn {
+  position: absolute;
+  margin: 1rem auto !important;
+  left: 0;
+  right: 0;
+  width: 4rem;
+  height: 4rem;
+  top: 60%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  color: #fff !important;
+
+  @media (--media-max-ipad) {
+    top: 65%; /* Adjust this value to move the positioned div up and down */
+  }
+
+  @media (--media-max-small) {
+    font-size: 1.1rem !important;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 55%; /* Adjust this value to move the positioned div up and down */
+  }
+}
+
+/* Contact Form */
+
+.formLbl {
+  font-family: 'Lato';
+  margin: 0.5rem;
+  margin-left: 0;
+}
+
+.formBtnLi {
+  list-style-type: none;
+  display: inline;
+}
+
+.formField {
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0.5rem;
+  margin-left: 0;
+}
+
+.formBtn {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+.contactForm {
+  width: 700px !important;
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .contactForm {
+    width: 500px !important;
+  }
+}
+
+/* Ipad and Ipad Pro */
+@media screen and (min-device-width: 481px) and (max-width: 1024px) {
+  .contactForm {
+    width: 800px !important;
+    padding: 2rem !important;
+  }
+
+  .subscription {
+    /* height: 100vh; */
+    padding: 0 3rem;
+  }
+}
+
+.installImage {
+  width: 100% !important;
+}
+.installBtn {
+  border: 2px solid #fff;
+  padding: 0.5em;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}

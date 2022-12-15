@@ -1,0 +1,22 @@
+@import '../../styles/media-queries.css';
+
+.storyDisplay {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 449px) {
+  .storyDisplay {
+    padding: 0rem;
+  }
+}
+
+.dividerSpace {
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 449px) {
+  .dividerSpace {
+    padding-top: 0rem;
+    margin-top: -2rem;
+  }
+}

@@ -1,0 +1,12 @@
+@custom-media --media-min-small (min-width: 450px);
+@custom-media --media-max-small (max-width: 449px);
+@custom-media --media-min-medium (min-width: 675px);
+@custom-media --media-max-medium (min-width: 674px);
+@custom-media --media-min-large (min-width: 900px);
+@custom-media --media-max-large (min-width: 899px);
+@custom-media --media-max-ipad (max-width: 1024px);
+@custom-media --media-min-ipad (max-width: 1023px);
+
+@custom-media --media-max-ipad-pro (max-width: 1366px);
+@custom-media --media-min-ipad-pro (max-width: 1365px);
+@custom-media --media-max-iphone5 (max-width: 568px);

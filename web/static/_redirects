@@ -1,0 +1,4 @@
+https://perfectraveller.netlify.app https://perfectraveller.com 301!
+http://perfectraveller.netlify.app  https://perfectraveller.com 301!
+http://perfectraveller.netlify.app/*  https://perfectraveller.com/:splat 301!
+https://perfectraveller.netlify.app/*  https://perfectraveller.com/:splat 301!
